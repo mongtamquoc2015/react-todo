@@ -4,7 +4,7 @@ import { useMutation, useQuery } from 'react-query';
 import { ReactQueryDevtools } from 'react-query-devtools';
 
 
-const Films = () => {
+const Todos = () => {
   const [text, setText] = useState('');
 
   const { status, error, data, isFetching } = useQuery('todos', async () => {
@@ -62,4 +62,4 @@ const Films = () => {
   )
 }
 
-export default Films;
+export default Todos;
