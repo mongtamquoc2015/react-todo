@@ -1,0 +1,2 @@
+Composition sẽ được sử dụng khi muốn chuyển dữ liệu từ cấp cao nhất của cây qua các component
+trung gian để đến được component cần dữ liệu và chỉ được sử dụng trong component đó.
