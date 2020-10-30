@@ -1,2 +1,0 @@
--useQuery: get data from API
--useMutation: edit,delete,create

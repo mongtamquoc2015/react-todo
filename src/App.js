@@ -1,12 +1,12 @@
 import React from 'react';
-import Composition from './components/Composition';
-import Todos from './components/Todos';
+import TodosContainer from './containers/Todos';
+import { GlobalProvider } from './context';
 
 function App() {
   return (
-   <>
-      <Todos />
-   </>
+    <GlobalProvider>
+      <TodosContainer />
+    </GlobalProvider>
   );
 }
 
